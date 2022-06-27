@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+  </head>
+
+  <style>
+       #products_data{
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         width: 80%;
+         height: 100%;
+         margin: auto;
+         gap: 20px;
+       }
+       #products_data>div{
+         width: 90%;
+         height: auto;
+         border: 1px solid black;
+         text-align: center;
+         padding: 5px;
+       }
+       #products_data>div>img{
+            width: 100%;
+            height: auto;
+       }
+
+
+  </style>
+
+  <body>
+    <div id="menu">
+      <button id="add_product">Add Product</button>
+      <!--Create Add Product button here, give id as "add_product". avoid making spelling mistakes in HTML id's-->
+    </div>
+    <div id="products_data">
+      <!--append all products data here in grid format-->
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/inventory.js">    
+ 
+</script>

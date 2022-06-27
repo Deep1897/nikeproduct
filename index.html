@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #product_form>input{
+      width: 200px;
+      margin-top: 5px;
+    }
+  </style>
+
+  <body>
+    <div id="menu">
+      <button id="show_products">show Products</button>
+      <!--Create Show Products button here, give id as "show_products". avoid making spelling mistakes in HTML id's-->
+    </div>
+    <div>
+      <h2>Add Products</h2>
+      <form id="product_form" onsubmit="myfun(event)">
+        <input type="text" id="product_brand" placeholder="brand">
+        <br>
+        <input type="text" id="product_name" placeholder="name">
+        <br>
+
+        <input type="text" id="product_price" placeholder="price">
+        <br>
+
+        <input type="text" id="product_image" placeholder="image">
+        <br>
+        <input type="submit">
+
+      </form>
+      <!--Create a form here to accept product data from user, give form HTML id as "product_form"-->
+
+      <!--Create four inputs to accept brand, name, price, image and brand-->
+      <!--give the inputs following respective id's, "product_brand", "product_name", "product_price","product_image"-->
+      <!--create a submit option to submit form, give it html id as "submit"-->
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/index.js"></script>
